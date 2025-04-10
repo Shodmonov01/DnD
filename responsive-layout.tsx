@@ -121,11 +121,7 @@ export default function ResponsiveLayout() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Responsive Draggable & Resizable Layout</h1>
-      <p className="mb-6 text-gray-600">
-        Drag blocks to rearrange them. Resize by dragging the edges. Stack blocks 1 and 3 vertically to activate the 2/3
-        split layout.
-      </p>
+     
 
       <div className="border rounded-lg p-2 bg-gray-50">
         <ResponsiveGridLayout
